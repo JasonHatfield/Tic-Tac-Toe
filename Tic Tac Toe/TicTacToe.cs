@@ -42,10 +42,7 @@ namespace Tic_Tac_Toe
                 // create a random object
                 Random random = new Random();
 
-                // create a two-dimensional int array
-
-
-                // fill the array with random numbers
+                // fill the array with random numbers 0 or 1 to represent O and X
                 for (int row = 0; row < ROWS; row++)
                 {
                     for (int col = 0; col < COLS; col++)
